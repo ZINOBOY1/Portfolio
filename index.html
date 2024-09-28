@@ -1,236 +1,228 @@
 <!doctype html>
-<html>
-	<head>
-		<title>My Portfolio</title>
-	</head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#exp">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
 
-	<body>
-		<div class="container">
-			<div class="navbar">
-				<a href="#" class="logo"><i>Portfolio</i></a>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#About">About</a></li>
-					<li><a href="#exp">Experience</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
+        <div class="main-page d-flex flex-column flex-md-row align-items-center" style="margin-top: 80px;">
+			<div class="m-img col-md-6">
+				<img src="img/IMG_4888.jpg" alt="dev pfp" class="img-fluid rounded">
 			</div>
-			<div class="main-page">
-				<div class="m-img">
-					<img src="img/IMG_4888.jpg" alt="dev pfp">
+			<div class="content col-md-6 text-center">
+				<p>Hello, I'm</p>
+				<h1>Efemezino Oyibo</h1>
+				<h2>Fullstack Developer</h2>
+				<div class="CV mb-3">
+					<a href="" class="btn btn-outline-dark">Download CV</a>
+					<a href="#contact" class="btn btn-dark">Contact Me</a>
 				</div>
-				<div class="content">
-					<p>Hello, I'm</p>
-					<h1>Efemezino Oyibo</h1>
-					<h2>Fullstack Developer</h2>
-					<div class="CV">
-						<a href="" class="btn">Download CV</a>
-						<a href="#cont" class="btn">Contact Me</a>
-					</div>
-					<div class="social-media">
-						<a href=""><img src="img/linkedin.png" alt="linkedin" class="icon1"></a>
-						<a href=""><img src="img/githubpng.png" alt="linkedin" class="icon1"></a>
-					</div>
-					
+				<div class="social-media mb-4">
+					<a href=""><img src="img/linkedin.png" alt="linkedin" class="icon1"></a>
+					<a href=""><img src="img/githubpng.png" alt="github" class="icon1"></a>
 				</div>
+			</div>
+		</div>
+		
+
+        <hr>
+
+        <div id="About" class="about-content text-center mb-4">
+            <p>Get to know more</p>
+            <h1>About me</h1>
+        </div>
+
+        <div class="about d-flex flex-column flex-md-row align-items-center">
+        
+            <div class="about1 col-md-6">
+                <div class="content2 mb-4">
+                    <div class="exp">
+                        <h4>Experience</h4>
+                        <p>2+ years</p>
+                        <p>Fullstack Development</p>
+                    </div>
+                    <div class="edu">
+                        <h4>Education</h4>
+                        <p>BSc</p>
+                        <p>HND</p>
+                    </div>
+                </div>
+                <div class="man">
+                    <p>Enthusiastic Full Stack Developer proficient in HTML, CSS, JavaScript, and Python. Experienced in building responsive web applications and creating RESTful APIs. Skilled in collaborating with cross-functional teams to deliver innovative solutions. Recently led the development of a full-stack application, achieving a 20% improvement in user engagement.</p>
+                </div>
 				
+            </div>
+			<div class="about-img col-md-6">
+				<img src="img/about.jpg" alt="About me" class="img-fluid rounded">
 			</div>
-			
-		<hr>
-			
-			<div id="About" class="about-content">
-					<p>Get to know more</p>
-					<h1>About me</h1>
-				</div>
-			<div class="about">
-				<div class="about-img">
-					<img src="img/about.jpg" alt="dev pfp">
-				</div>
-				<div class="about1">
-					<div class="content2">
-						<div class="exp">
-							<h4>Experience</h4>
-							<p>2+ years</p>
-							<p> Fullstack Development</p>
-						</div>
-						<div class="edu">
-							<h4>Education</h4>
-							<p>Bsc</p>
-							<p>Hnd</p>
-						</div>
-						
-					</div>
-					<div class="man">
-					<p>Lorem ipsum dolor sit amet,
-						consectetur adipiscing elit. Nullam semper laoreet dui nec vulputate. Aliquam tincidunt ac odio vitae pharetra. 
-						Ut vitae nunc quis augue lobortis feugiat. Vivamus ut hendrerit lorem, eget laoreet tellus. Praesent sollicitudin ut ex id vulputate. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam nec tortor efficitur ex fringilla gravida. 
-						Proin a scelerisque enim. Quisque ut feugiat diam, at porttitor ipsum. 
-						In maximus accumsan viverra.</p>
-					</div>
-				</div>
-		    
-			</div>
-			<hr>
-		<div id="exp" class="">
-				<div class="ex-content">
-					<p>Explore My </p>
-					<h1>Experience</h1>
-				</div>
-		<div class="Experience-container">
-			<div class="Experience-box">
-					<h2>Frontend-Development</h2>
-					<div class="Experience">
-					<div class="Experience1">
-						<div class="exp-img">
-							<img src="img/linkedin.png" class="icon1">
-							<div>
-								<h4>HTML</h4>
-								<p>Advanced</p>
-							</div>
-						</div>
-						<div class="exp-img">
-							<img src="img/linkedin.png" class="icon1">
-							<div>
-								<h4>CSS</h4>
-								<p>Advanced</p>
-							</div>
-						</div>
-						<div class="exp-img">
-							<img src="img/linkedin.png" class="icon1">
-							<div>
-								<h4>JavaSript</h4>
-								<p>Intermediate</p>
-							</div>
-						</div>
-					</div>
-					<div class="Experience1">
-						<div class="exp-img">
-							<img src="img/linkedin.png" class="icon1">
-							<div>
-								<h4>React</h4>
-								<p>Intermediate</p>
-							</div>
-						</div>
-						<div class="exp-img">
-							<img src="img/linkedin.png" class="icon1">
-							<div>
-								<h4>HTML</h4>
-								<p>Advanced</p>
-							</div>
-						</div>
-						<div class="exp-img">
-							<img src="img/linkedin.png" class="icon1">
-							<div>
-								<h4>Vue.js</h4>
-								<p>Intermediate</p>
-							</div>
-						</div>
-					</div>	
-				</div>
-			</div>
-			<div class="Experience-box">
-					<h2>Backend-Development</h2>
-					<div class="Experience">
-					<div class="Experience1">
-						<div class="exp-img">
-							<img src="img/linkedin.png" class="icon1">
-							<div>
-								<h4>MySQL</h4>
-								<p>Intermediate</p>
-							</div>
-						</div>
-						<div class="exp-img">
-							<img src="img/linkedin.png" class="icon1">
-							<div>
-								<h4>Mongo DB</h4>
-								<p>Advanced</p>
-							</div>
-						</div>
-						<div class="exp-img">
-							<img src="img/linkedin.png" class="icon1">
-							<div>
-								<h4>Ajax</h4>
-								<p>Intermediate</p>
-							</div>
+        </div>
+
+        <hr>
+
+        <div id="exp" class="text-center mb-4">
+            <p>Explore My</p>
+            <h1>Experience</h1>
+        </div>
+
+        <div class="Experience-container row">
+            <div class="Experience-box col-md-6 mb-4">
+                <h2>Frontend Development</h2>
+                <div class="Experience">
+                    <div class="Experience1 row">
+                        <div class="col-4 exp-img text-center">
+                            <img src="img/linkedin.png" class="icon1">
+                            <h4>HTML</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="col-4 exp-img text-center">
+                            <img src="img/linkedin.png" class="icon1">
+                            <h4>CSS</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="col-4 exp-img text-center">
+                            <img src="img/linkedin.png" class="icon1">
+                            <h4>JavaScript</h4>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                    <div class="Experience1 row">
+                        <div class="col-4 exp-img text-center">
+                            <img src="img/linkedin.png" class="icon1">
+                            <h4>React</h4>
+                            <p>Intermediate</p>
+                        </div>
+                        <div class="col-4 exp-img text-center">
+                            <img src="img/linkedin.png" class="icon1">
+                            <h4>Vue.js</h4>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Experience-box col-md-6 mb-4">
+                <h2>Backend Development</h2>
+                <div class="Experience">
+                    <div class="Experience1 row">
+                        <div class="col-4 exp-img text-center">
+                            <img src="img/linkedin.png" class="icon1">
+                            <h4>MySQL</h4>
+                            <p>Intermediate</p>
+                        </div>
+                        <div class="col-4 exp-img text-center">
+                            <img src="img/linkedin.png" class="icon1">
+                            <h4>MongoDB</h4>
+                            <p>Advanced</p>
+                        </div>
+                        <div class="col-4 exp-img text-center">
+                            <img src="img/linkedin.png" class="icon1">
+                            <h4>PHP</h4>
+                            <p>Advanced</p>
+                        </div>
+                    </div>
+                    <div class="Experience1 row">
+                        <div class="col-4 exp-img text-center">
+                            <img src="img/linkedin.png" class="icon1">
+                            <h4>Python</h4>
+                            <p>Intermediate</p>
+                        </div>
+                        <div class="col-4 exp-img text-center">
+                            <img src="img/linkedin.png" class="icon1">
+                            <h4>Node.js</h4>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects" class="ex-content text-center mb-4">
+			<p>Browse My</p>
+			<h1>Projects</h1>
+		</div>
+		
+		<div class="project row">
+			<div class="col-md-4 mb-4">
+				<div class="card text-center">
+					<img src="img/project.jpg" alt="Project 1" class="card-img-top img-fluid rounded">
+					<div class="card-body">
+						<h3 class="card-title">Project 1</h3>
+						<div>
+							<a href="#" class="btn btn-outline-dark">Github</a>
+							<a href="#" class="btn btn-dark">Live Project</a>
 						</div>
 					</div>
-					<div class="Experience1">
-						<div class="exp-img">
-							<img src="img/linkedin.png" class="icon1">
-							<div>
-								<h4>PHP</h4>
-								<p>Advanced</p>
-							</div>
-						</div>
-						<div class="exp-img">
-							<img src="img/linkedin.png" class="icon1">
-							<div>
-								<h4>Python</h4>
-								<p>Intermediate</p>
-							</div>
-						</div>
-						<div class="exp-img">
-							<img src="img/linkedin.png" class="icon1">
-							<div>
-								<h4>Node.js</h4>
-								<p>Intermediate</p>
-							</div>
-						</div>
-					</div>	
 				</div>
 			</div>
 			
+			<div class="col-md-4 mb-4">
+				<div class="card text-center">
+					<img src="img/project.jpg" alt="Project 2" class="card-img-top img-fluid rounded">
+					<div class="card-body">
+						<h3 class="card-title">Project 2</h3>
+						<div>
+							<a href="#" class="btn btn-outline-dark">Github</a>
+							<a href="#" class="btn btn-dark">Live Project</a>
+						</div>
+					</div>
+				</div>
+			</div>
 			
-			</div>
-			</div>
-			<div id="projects" class="ex-content">
-				<p>Browse My</p>
-				<h1>Projects</h1>
-			</div>
-		<div class="project">
-		<div class="project-container">
-				<img src="img/project.jpg" alt="projects">
-				<h3>Project 1</h3>
-				<div>
-					<a href="#" class="btn">Github</a>
-					<a href="#" class="btn">Live Project</a>
-				</div>
-	    </div>
-			<div class="project-container">
-				<img src="img/project.jpg" alt="projects">
-				<h3>Project 2</h3>
-				<div>
-					<a href="#" class="btn">Github</a>
-					<a href="#" class="btn">Live Project</a>
+			<div class="col-md-4 mb-4">
+				<div class="card text-center">
+					<img src="img/project.jpg" alt="Project 3" class="card-img-top img-fluid rounded">
+					<div class="card-body">
+						<h3 class="card-title">Project 3</h3>
+						<div>
+							<a href="#" class="btn btn-outline-dark">Github</a>
+							<a href="#" class="btn btn-dark">Live Project</a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="project-container">
-				<img src="img/project.jpg" alt="projects">
-				<h3>Project 3</h3>
-				<div>
-					<a href="#" class="btn">Github</a>
-					<a href="#" class="btn">Live Project</a>
-				</div>
-			</div>
-		  </div>
-		  <div id="contact" class="contact">
-			<p> Be in touch</p>
+		</div>
+		
+
+		<div id="contact" class="contact text-center mb-4">
+			<p>Be in touch</p>
 			<h1>Contact Me</h1>
-			<div class="form1">
-			<div class="form">
-				<img src="img/email.png" alt="email-icon">
-				<input type="email" placeholder="Example@gmail.com">
+			<div class="form1 mb-4">
+				<form class="d-flex justify-content-center">
+					<div class="input-group me-2" style="max-width: 400px;">
+						<span class="input-group-text"><img src="img/email.png" alt="email-icon" style="width: 20px; height: 20px;"></span>
+						<input type="email" class="form-control" placeholder="Example@gmail.com" aria-label="Email">
+					</div>
+					<button type="submit" class="btn btn-dark">Send Message</button>
+				</form>
 			</div>
-			<div>
-		  </div>
-		</div>	
-	</body>
-	
+		</div>
+		
+		
+    </div>
+
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
 </html>
